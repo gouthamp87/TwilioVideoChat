@@ -1,0 +1,4 @@
+./VideoChat-js/node_modules
+.DS_Store
+./VideoChat/.DS_Store
+./VideoChat/Pods/TwilioVideo/Build/*

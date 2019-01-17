@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D23EF6621E6448C00288106 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D23EF6521E6448C00288106 /* AppDelegate.m */; };
+		6D23EF6921E6448C00288106 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D23EF6821E6448C00288106 /* ViewController.m */; };
+		6D23EF6C21E6448C00288106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D23EF6A21E6448C00288106 /* Main.storyboard */; };
+		6D23EF6E21E6449300288106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D23EF6D21E6449300288106 /* Assets.xcassets */; };
+		6D23EF7121E6449300288106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D23EF6F21E6449300288106 /* LaunchScreen.storyboard */; };
+		6D23EF7421E6449300288106 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D23EF7321E6449300288106 /* main.m */; };
+		6D23EF7E21E6449300288106 /* VideoChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D23EF7D21E6449300288106 /* VideoChatTests.m */; };
+		6D23EF8921E6449300288106 /* VideoChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D23EF8821E6449300288106 /* VideoChatUITests.m */; };
+		6D47FDD721ECF26D00735120 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D47FDD621ECF26D00735120 /* Utils.m */; };
+		EFE17F8BDA1EE9B3671FE031 /* libPods-TwilioVideo-VideoChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE5D272E9E42CA406951569 /* libPods-TwilioVideo-VideoChat.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D23EF7A21E6449300288106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D23EF5921E6448C00288106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D23EF6021E6448C00288106;
+			remoteInfo = VideoChat;
+		};
+		6D23EF8521E6449300288106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D23EF5921E6448C00288106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D23EF6021E6448C00288106;
+			remoteInfo = VideoChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6134FD3BAA4B51E52D9C5FE1 /* Pods-TwilioVideo-VideoChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVideo-VideoChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwilioVideo-VideoChat/Pods-TwilioVideo-VideoChat.debug.xcconfig"; sourceTree = "<group>"; };
+		6D23EF6121E6448C00288106 /* VideoChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D23EF6421E6448C00288106 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D23EF6521E6448C00288106 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D23EF6721E6448C00288106 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D23EF6821E6448C00288106 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D23EF6B21E6448C00288106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D23EF6D21E6449300288106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D23EF7021E6449300288106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D23EF7221E6449300288106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D23EF7321E6449300288106 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D23EF7921E6449300288106 /* VideoChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D23EF7D21E6449300288106 /* VideoChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoChatTests.m; sourceTree = "<group>"; };
+		6D23EF7F21E6449300288106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D23EF8421E6449300288106 /* VideoChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D23EF8821E6449300288106 /* VideoChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoChatUITests.m; sourceTree = "<group>"; };
+		6D23EF8A21E6449300288106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D47FDD521ECF26D00735120 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		6D47FDD621ECF26D00735120 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		DD92E8FD6F337AA5FD8E4CE6 /* Pods-TwilioVideo-VideoChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVideo-VideoChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwilioVideo-VideoChat/Pods-TwilioVideo-VideoChat.release.xcconfig"; sourceTree = "<group>"; };
+		FEE5D272E9E42CA406951569 /* libPods-TwilioVideo-VideoChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwilioVideo-VideoChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D23EF5E21E6448C00288106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE17F8BDA1EE9B3671FE031 /* libPods-TwilioVideo-VideoChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D23EF7621E6449300288106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D23EF8121E6449300288106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A94B01D8C8F8CCFC0AFEE19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6134FD3BAA4B51E52D9C5FE1 /* Pods-TwilioVideo-VideoChat.debug.xcconfig */,
+				DD92E8FD6F337AA5FD8E4CE6 /* Pods-TwilioVideo-VideoChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D23EF5821E6448C00288106 = {
+			isa = PBXGroup;
+			children = (
+				6D23EF6321E6448C00288106 /* VideoChat */,
+				6D23EF7C21E6449300288106 /* VideoChatTests */,
+				6D23EF8721E6449300288106 /* VideoChatUITests */,
+				6D23EF6221E6448C00288106 /* Products */,
+				ACFA64AC8E9FE7976D2C2B84 /* Frameworks */,
+				3A94B01D8C8F8CCFC0AFEE19 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6D23EF6221E6448C00288106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D23EF6121E6448C00288106 /* VideoChat.app */,
+				6D23EF7921E6449300288106 /* VideoChatTests.xctest */,
+				6D23EF8421E6449300288106 /* VideoChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D23EF6321E6448C00288106 /* VideoChat */ = {
+			isa = PBXGroup;
+			children = (
+				6D23EF6421E6448C00288106 /* AppDelegate.h */,
+				6D23EF6521E6448C00288106 /* AppDelegate.m */,
+				6D23EF6721E6448C00288106 /* ViewController.h */,
+				6D23EF6821E6448C00288106 /* ViewController.m */,
+				6D23EF6A21E6448C00288106 /* Main.storyboard */,
+				6D23EF6D21E6449300288106 /* Assets.xcassets */,
+				6D23EF6F21E6449300288106 /* LaunchScreen.storyboard */,
+				6D23EF7221E6449300288106 /* Info.plist */,
+				6D23EF7321E6449300288106 /* main.m */,
+				6D47FDD521ECF26D00735120 /* Utils.h */,
+				6D47FDD621ECF26D00735120 /* Utils.m */,
+			);
+			path = VideoChat;
+			sourceTree = "<group>";
+		};
+		6D23EF7C21E6449300288106 /* VideoChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D23EF7D21E6449300288106 /* VideoChatTests.m */,
+				6D23EF7F21E6449300288106 /* Info.plist */,
+			);
+			path = VideoChatTests;
+			sourceTree = "<group>";
+		};
+		6D23EF8721E6449300288106 /* VideoChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D23EF8821E6449300288106 /* VideoChatUITests.m */,
+				6D23EF8A21E6449300288106 /* Info.plist */,
+			);
+			path = VideoChatUITests;
+			sourceTree = "<group>";
+		};
+		ACFA64AC8E9FE7976D2C2B84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEE5D272E9E42CA406951569 /* libPods-TwilioVideo-VideoChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D23EF6021E6448C00288106 /* VideoChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D23EF8D21E6449300288106 /* Build configuration list for PBXNativeTarget "VideoChat" */;
+			buildPhases = (
+				6E9AEFC3A57B1135351638B0 /* [CP] Check Pods Manifest.lock */,
+				6D23EF5D21E6448C00288106 /* Sources */,
+				6D23EF5E21E6448C00288106 /* Frameworks */,
+				6D23EF5F21E6448C00288106 /* Resources */,
+				82823D161013D8951F15198F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoChat;
+			productName = VideoChat;
+			productReference = 6D23EF6121E6448C00288106 /* VideoChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D23EF7821E6449300288106 /* VideoChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D23EF9021E6449300288106 /* Build configuration list for PBXNativeTarget "VideoChatTests" */;
+			buildPhases = (
+				6D23EF7521E6449300288106 /* Sources */,
+				6D23EF7621E6449300288106 /* Frameworks */,
+				6D23EF7721E6449300288106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D23EF7B21E6449300288106 /* PBXTargetDependency */,
+			);
+			name = VideoChatTests;
+			productName = VideoChatTests;
+			productReference = 6D23EF7921E6449300288106 /* VideoChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D23EF8321E6449300288106 /* VideoChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D23EF9321E6449300288106 /* Build configuration list for PBXNativeTarget "VideoChatUITests" */;
+			buildPhases = (
+				6D23EF8021E6449300288106 /* Sources */,
+				6D23EF8121E6449300288106 /* Frameworks */,
+				6D23EF8221E6449300288106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D23EF8621E6449300288106 /* PBXTargetDependency */,
+			);
+			name = VideoChatUITests;
+			productName = VideoChatUITests;
+			productReference = 6D23EF8421E6449300288106 /* VideoChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D23EF5921E6448C00288106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = GouthamPersonal;
+				TargetAttributes = {
+					6D23EF6021E6448C00288106 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6D23EF7821E6449300288106 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6D23EF6021E6448C00288106;
+					};
+					6D23EF8321E6449300288106 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6D23EF6021E6448C00288106;
+					};
+				};
+			};
+			buildConfigurationList = 6D23EF5C21E6448C00288106 /* Build configuration list for PBXProject "VideoChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D23EF5821E6448C00288106;
+			productRefGroup = 6D23EF6221E6448C00288106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D23EF6021E6448C00288106 /* VideoChat */,
+				6D23EF7821E6449300288106 /* VideoChatTests */,
+				6D23EF8321E6449300288106 /* VideoChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D23EF5F21E6448C00288106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D23EF7121E6449300288106 /* LaunchScreen.storyboard in Resources */,
+				6D23EF6E21E6449300288106 /* Assets.xcassets in Resources */,
+				6D23EF6C21E6448C00288106 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D23EF7721E6449300288106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D23EF8221E6449300288106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E9AEFC3A57B1135351638B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwilioVideo-VideoChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82823D161013D8951F15198F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TwilioVideo-VideoChat/Pods-TwilioVideo-VideoChat-frameworks.sh",
+				"${PODS_ROOT}/TwilioVideo/Build/iOS/TwilioVideo.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwilioVideo.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwilioVideo-VideoChat/Pods-TwilioVideo-VideoChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D23EF5D21E6448C00288106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D23EF6921E6448C00288106 /* ViewController.m in Sources */,
+				6D23EF7421E6449300288106 /* main.m in Sources */,
+				6D23EF6621E6448C00288106 /* AppDelegate.m in Sources */,
+				6D47FDD721ECF26D00735120 /* Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D23EF7521E6449300288106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D23EF7E21E6449300288106 /* VideoChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D23EF8021E6449300288106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D23EF8921E6449300288106 /* VideoChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D23EF7B21E6449300288106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D23EF6021E6448C00288106 /* VideoChat */;
+			targetProxy = 6D23EF7A21E6449300288106 /* PBXContainerItemProxy */;
+		};
+		6D23EF8621E6449300288106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D23EF6021E6448C00288106 /* VideoChat */;
+			targetProxy = 6D23EF8521E6449300288106 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D23EF6A21E6448C00288106 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D23EF6B21E6448C00288106 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D23EF6F21E6449300288106 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D23EF7021E6449300288106 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D23EF8B21E6449300288106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D23EF8C21E6449300288106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D23EF8E21E6449300288106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6134FD3BAA4B51E52D9C5FE1 /* Pods-TwilioVideo-VideoChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ26LAU7JM;
+				INFOPLIST_FILE = VideoChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.routethis.VideoChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D23EF8F21E6449300288106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD92E8FD6F337AA5FD8E4CE6 /* Pods-TwilioVideo-VideoChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ26LAU7JM;
+				INFOPLIST_FILE = VideoChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.routethis.VideoChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D23EF9121E6449300288106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ26LAU7JM;
+				INFOPLIST_FILE = VideoChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.routethis.VideoChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoChat.app/VideoChat";
+			};
+			name = Debug;
+		};
+		6D23EF9221E6449300288106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ26LAU7JM;
+				INFOPLIST_FILE = VideoChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.routethis.VideoChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoChat.app/VideoChat";
+			};
+			name = Release;
+		};
+		6D23EF9421E6449300288106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ26LAU7JM;
+				INFOPLIST_FILE = VideoChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.routethis.VideoChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoChat;
+			};
+			name = Debug;
+		};
+		6D23EF9521E6449300288106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ26LAU7JM;
+				INFOPLIST_FILE = VideoChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.routethis.VideoChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D23EF5C21E6448C00288106 /* Build configuration list for PBXProject "VideoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D23EF8B21E6449300288106 /* Debug */,
+				6D23EF8C21E6449300288106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D23EF8D21E6449300288106 /* Build configuration list for PBXNativeTarget "VideoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D23EF8E21E6449300288106 /* Debug */,
+				6D23EF8F21E6449300288106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D23EF9021E6449300288106 /* Build configuration list for PBXNativeTarget "VideoChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D23EF9121E6449300288106 /* Debug */,
+				6D23EF9221E6449300288106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D23EF9321E6449300288106 /* Build configuration list for PBXNativeTarget "VideoChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D23EF9421E6449300288106 /* Debug */,
+				6D23EF9521E6449300288106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D23EF5921E6448C00288106 /* Project object */;
+}

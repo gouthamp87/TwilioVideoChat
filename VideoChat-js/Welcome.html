@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Demo for Video Chat With RouteThis</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="remote-media"></div>
+<div id="controls">
+  <div id="room-controls">
+    <p class="instructions">Hey You would be joined to a Room after the client enables the video.</p>
+    <input id="room-name" type="text" placeholder="Enter a room name" />
+    <input id="room-token" type="text" placeholder="Enter the token for Room" />
+    <br>
+    <button id="button-join">Join Room</button>
+    <button id="button-leave">Leave Room</button>
+  </div>
+  <div id="log"></div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//media.twiliocdn.com/sdk/js/video/v1/twilio-video.min.js"></script>
+<script src="welcome.js"></script>
+</body>
+</html>
